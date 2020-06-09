@@ -1,0 +1,27 @@
+{
+    "name": "swoorift",
+    "description": "swoorift framework",
+    "keywords": [
+        "swoole",
+        "mvc",
+        "coroutine"
+      ],
+    "authors": [
+        {
+            "name": "PPPHUANG",
+            "email": "huangpengr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Swoorift\\": "src",
+          "handler\\": "handler",
+          "Thrift\\": "src/thrift/lib",
+          "tests\\": "src/gen/tests"
+        }
+      },
+    "require": {
+        "php": ">=7.0",
+        "ext-swoole": ">=4.2.9"
+    }
+}
